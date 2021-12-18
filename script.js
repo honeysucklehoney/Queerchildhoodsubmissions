@@ -1,9 +1,4 @@
 
-
-var consent = document.getElementById("con");
-// var moreText = document.getElementById("letslarger");
-
-
 console.log("hi");
 
 
@@ -15,8 +10,12 @@ function myFunction() {
 
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
-    text.style.display = "block";
+    text.style.opacity = "100%";
+    $(text).attr('href','mailto:email@example.com?subject=Queer%20childhood%20submission');
+
   } else {
-    text.style.display = "none";
+    text.style.opacity = "40%";
+    $(text).attr('href','queerchildhoodsubmissions.html');
+
   }
 }
