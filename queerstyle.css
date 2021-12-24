@@ -47,6 +47,27 @@ img {
 
 }
 
+.consentbox {
+
+ width: 180px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding: 10px;
+ color: red;
+
+}
+
+.fullsend {
+
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 0px;
+
+}
+
 p {
 
 background-color: white;
@@ -165,7 +186,7 @@ margin: 20px;
     background-size: auto;
     color: black;
     font-family: helvetica;
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     }
 
@@ -184,6 +205,27 @@ margin: 20px;
 img {
 
   width: 80%;
+}
+
+.consentbox {
+
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding: 10px;
+ color: red;
+
+}
+
+.fullsend {
+
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 0px;
+
 }
 
 
