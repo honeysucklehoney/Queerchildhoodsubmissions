@@ -118,7 +118,7 @@ margin: 20px;
   clear: both;
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .column {
       float: left;
